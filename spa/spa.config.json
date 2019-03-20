@@ -1,11 +1,11 @@
 {
     "app": {
-        "api_base_url":     "http://api.mycompany.com/api"
+        "api_base_url":     "http://localhost.lamontadams.net:3001/api"
     },
     "oauth": {
-        "authority":        "https://dev-843469.oktapreview.com/oauth2/default",
-        "client_id":        "0oac5m78icnW3C06L0h7",
-        "redirect_uri":     "http://web.mycompany.com/spa/",
+        "authority":        "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_DLPmo5TQH",
+        "client_id":        "7hp2255hib0b4fks7fpi9sosqm",
+        "redirect_uri":     "https://localhost.lamontadams.net/spa/",
         "scope":            "openid"
     }
 }

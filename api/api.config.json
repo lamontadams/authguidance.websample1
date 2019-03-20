@@ -1,13 +1,13 @@
 {
     "app": {
-        "port": 80,
+        "port": 3001,
         "trusted_origins": [
-            "http://web.mycompany.com"
+            "http://localhost.lamontadams.net"
         ]
     },
     "oauth": {
-        "introspection_url":  "https://dev-843469.oktapreview.com/oauth2/default/v1/introspect",
-        "client_id":          "0oac5s69rjXE0HcZO0h7",
-        "client_secret":      "VEEe9m9WDneeUSUJUOMKZiso_X6xwKvAqRInT2kg"
+        "introspection_url":  "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_DLPmo5TQH/.well-known/openid-configuration",
+        "client_id":          "1q93pe7uv3q0faiu35n8488ve7",
+        "client_secret":      "t9bt4k9cht3bckehvu6181545944m3nnlbcletvrci0rg2vl3cp"
     }
 }
